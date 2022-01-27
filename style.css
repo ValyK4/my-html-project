@@ -1,0 +1,85 @@
+body {
+background:  #262626;
+text-align: center;
+}
+#main {
+	width: 1080px;
+	height: auto;
+	background: #676767;
+	margin: 10px auto;
+	border: solid 25px #515151;
+	border-radius: 40px;
+	padding: 10px;                /* ok asta e fara alineat */
+}
+h1 {
+	text-align: center;
+	font-family:"Brush Script MT";
+	font-size: 40pt;
+	color:#000000;
+}
+p {
+	font-family:"Cambria","Calibri";
+	font-size: 14pt;
+	text-align: justify;
+	color:#000000;
+	text-indent: 20px;             /*indent si padding is la fel? oricum, asta e valabil doar pt 'p' ai grija*/
+}
+#meniu{
+	font-family:"Helvetica";
+	font-size: 20pt;
+	background: #676767;
+	margin: 5px auto;
+	border: solid 10px #515151;
+	border-radius: 25px;
+	padding: 10px;
+	float:center;
+	text-align: center;
+	font-weight: bold;
+	
+}
+ul{ font-family:"Cambria","Calibri";
+	font-size: 14pt;
+	text-align: justify;
+	text-indent: 20px; 
+	color:#000000;
+
+}
+a:link {
+  color: #1d0033;
+  text-decoration: none;
+}
+a:visited {
+  color: #1d0033;
+}
+a:hover {
+  color: #480080;
+}
+a:active {
+  color: #0e0019;
+} 
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+	font-family:"Times New Roman";
+	font-size: 15pt;
+    text-decoration: none;
+    color: #36005e;
+}
+a.button:hover{
+	color: #CF9FFF;
+}
+#continut{
+width: auto;
+	height: auto;
+	background: #676767;
+	margin: 5px auto;
+	border-radius: 5px;
+	padding: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  opacity: 0.85;
+  border-radius: 50px;
+}
